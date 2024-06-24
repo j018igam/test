@@ -9,6 +9,7 @@ function sum()
     var a = parseFloat(form.a.value);
     var b = parseFloat(form.b.value);
     form.c.value = a + b;
+    /*formオブジェクトは直接参照できないためdocument.formsを使う。また文字列を数値に変換して加算を行う。*/
 }
 </script>
 </head>
